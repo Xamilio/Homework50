@@ -5,9 +5,9 @@ template <typename T>
 class Swapper {
 public:
     static void Swap(T& a, T& b) {
-        T temp = std::move(a);
-        a = std::move(b);
-        b = std::move(temp);
+        T temp = smove(a);
+        a = move(b);
+        b = move(temp);
     }
 };
 int main()
